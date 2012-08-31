@@ -1,7 +1,7 @@
 function Repl(ctx){
   var self = this;
 
-  this.content = '>_';
+  this.content = '> _';
   this.ctx = ctx;
 
   this.ctx.fillText(self.content, 10, 30);
